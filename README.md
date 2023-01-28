@@ -1,3 +1,8 @@
+# About Project
+
+A Airbnb Clone made with some new features of Next.js 13 + TypeScrip+ Tailwind CSS.
+Base on [Sunny Sangha](https://www.youtube.com/watch?v=b8gBIphfCqw&t=5519s) code.
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).

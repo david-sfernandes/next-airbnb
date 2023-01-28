@@ -110,18 +110,6 @@
   dependencies:
     tslib "^2.4.0"
 
-"@types/geojson@*":
-  version "7946.0.10"
-  resolved "https://registry.yarnpkg.com/@types/geojson/-/geojson-7946.0.10.tgz#6dfbf5ea17142f7f9a043809f1cd4c448cb68249"
-  integrity sha512-Nmh0K3iWQJzniTuPRcJn5hxXkfB1T1pgB89SBig5PlJQU5yocazeu4jATJlaA0GYFKWMqDdvYemoSnF2pXgLVA==
-
-"@types/mapbox-gl@^2.6.0":
-  version "2.7.10"
-  resolved "https://registry.yarnpkg.com/@types/mapbox-gl/-/mapbox-gl-2.7.10.tgz#a3a32a366bad8966c0a40b78209ed430ba018ce1"
-  integrity sha512-nMVEcu9bAcenvx6oPWubQSPevsekByjOfKjlkr+8P91vawtkxTnopDoXXq1Qn/f4cg3zt0Z2W9DVsVsKRNXJTw==
-  dependencies:
-    "@types/geojson" "*"
-
 "@types/node@18.11.3":
   version "18.11.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.3.tgz#78a6d7ec962b596fc2d2ec102c4dd3ef073fea6a"
@@ -637,13 +625,6 @@ react-list@^0.8.13:
   integrity sha512-pgmzGi0G5uGrdHzMhgO7KR1wx5ZXVvI3SsJUmkblSAKtewIhMwbQiMuQiTE83ozo04BQJbe0r3WIWzSO0dR1xg==
   dependencies:
     prop-types "15"
-
-react-map-gl@^7.0.20:
-  version "7.0.20"
-  resolved "https://registry.yarnpkg.com/react-map-gl/-/react-map-gl-7.0.20.tgz#84435319290a61142b558c05c32da91474d585a7"
-  integrity sha512-Q1formrWEdt9vY5DyW2vgdmAPuSMH2TFn8xKMlA+cmBlyS8veQvVTGoq4lAm8p3Hb/90ZpNmMtI4s107r931vQ==
-  dependencies:
-    "@types/mapbox-gl" "^2.6.0"
 
 react@18.2.0:
   version "18.2.0"
