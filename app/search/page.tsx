@@ -23,17 +23,14 @@ export default async function SearchPage({
 }: {
   searchParams: ParamsProps;
 }) {
-  const { location, startDate, endDate, noOfGuests } = searchParams;
-  const formatStartDate = format(new Date(String(startDate)), "dd MMMM yy");
-  const formatEndDate = format(new Date(String(endDate)), "dd MMMM yy");
-  const range = `${formatStartDate} - ${formatEndDate}`;
+  const { location, noOfGuests } = searchParams;
   const searchResults: SearchResult[] = await getSearchResults();
 
   return (
     <main className="flex">
       <section className="flex-grow pt-14 px-6">
-        <p className="text-xs">300+ stay for {noOfGuests} number of guests</p>
-        <h1 className="text-3xl font-semiboldmt-2 mb-6">Stay in {location}</h1>
+        <p className="text-xs">300+ stay for {noOfGuests ? noOfGuests : 1} number of guests</p>
+        <h1 className="text-3xl font-semiboldmt-2 mb-6">Stay in {location ? location : "Brazil"}</h1>
         <div className="hidden lg:inline-flex mb-5 space-x-3 text-gray-800 whitespace-nowrap">
           <Button text="Cancellation Flexibility" />
           <Button text="Type of Place" />
